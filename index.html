@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Code Reviewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f0f0f0;
+    }
+
+    textarea {
+      width: 100%;
+      height: 200px;
+      font-family: monospace;
+      font-size: 14px;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    pre {
+      background-color: #fff;
+      padding: 1rem;
+      margin-top: 1rem;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>AI Code Reviewer</h1>
+  <textarea id="code-input" placeholder="Paste your code here..."></textarea>
+  <br />
+  <button id="review-btn">Review Code</button>
+  <pre id="review-output">AI review will appear here...</pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
